@@ -8,6 +8,10 @@
         "panel-main-asteroid-eligible-full": {url:"$H/m/elig-questions-eligible-full-data.html",Table:"asteroid-survey-record"},
         "panel-main-asteroid-dsa":      {url:"$H/m/dsa-data.html",Table:"asteroid-dsa-survey-record",form_module:"panel-main-asteroid-dsa-form"},
         "panel-main-asteroid-dsa-form":		    {url:"$H/m/dsa-form.html",Table:"asteroid-dsa-survey-record"},
+        "panel-main-asteroid-export":   {url:"$H/m/export/panel-export.html"},
+        "export-data":{url:"$H/m/export/export-data.html",Table:"asteroid-sleep-survey-export",form_module:"export-form"},
+        "export-form":{url:"$H/m/export/export-form.html",Table:"asteroid-sleep-survey-export"},
+    
     }
     //for(m in modules){$vm.module_list[m]=modules[m];}
 
